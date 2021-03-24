@@ -1,0 +1,42 @@
+:root{
+  --principal: rgba(87,41,126,1);
+  --principal2: rgba(253,29,29,1);
+  --principal3:rgba(252,176,69,1);
+  --secundarioOscuro: rgb(233, 187, 2);
+  --blanco: #FFFFFF;
+  --negro: #000000;
+
+  --fuentePrincipal: 'Staatliches', cursive;
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+
+/*Globales*/
+body{
+  background: rgb(87,41,126);
+  background: linear-gradient(90deg, rgba(87,41,126,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+}
+
+.contenedor{
+  background-color: var(--blanco);
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 4.5rem auto;
+  width: 96%;
+  height:58rem;
+}
+
+@media (min-width: 768px) {
+  .contenedor{
+    margin: 10rem auto;
+    width: 70%;
+  }
+}
